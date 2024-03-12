@@ -1,0 +1,79 @@
+/* for start.php */
+
+/* ===================================================================
+ * # background
+ *
+ * ------------------------------------------------------------------- */
+body {
+    background-origin: border-box;
+    background-image: url("logo.jpg");
+    background-size: 7%;
+    background-position-x: 4%;
+    background-position-y: 7%;
+    background-repeat: no-repeat;
+}
+
+/* ===================================================================
+ * # main
+ *
+ * ------------------------------------------------------------------- */
+#file{
+    font-weight: bold;
+    font-size: large;
+    margin-right: 5%;
+}
+#submit{
+    width: 5%;
+    height: 5%;
+    font-weight: bold;
+    font-size: large;
+}
+#qr{
+    width: 15%;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.text{
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+a.btn {
+	display: block;
+	text-align: center;
+    position: relative;
+	text-decoration: none;
+	width: 100px;
+	margin: auto;
+    margin-top: 30px;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: #000000;
+    background-color: #A3B96B;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+a.btn:hover {
+	color: #fff;
+	background: #000000;
+}

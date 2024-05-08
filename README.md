@@ -1,4 +1,4 @@
-# 2023オープンキャンパスで使ったグリーンバック撮影
+# グリーンバック撮影（2023オープンキャンパス）
 参考URL: https://studio.kemco.keio.ac.jp/opencampus/greenback-upload.php
 # 概要
 greenback-upload.php: 画像をサーバに上げて一度きりのQRコードを作成する
